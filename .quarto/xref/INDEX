@@ -1,0 +1,54 @@
+{
+  "index.qmd": {
+    "index.html": "36a313e3"
+  },
+  "about.qmd": {
+    "about.html": "85445926"
+  },
+  "project2.md": {
+    "project2.html": "f82cbe19"
+  },
+  "data_analysis/ds250/project2.md": {
+    "project2.html": "5d1e1aff"
+  },
+  "data_analysis/ds250/ds250.qmd": {
+    "ds250.html": "6e6b3070"
+  },
+  "visualization/ba315/ba315_project.qmd": {
+    "ba315_project.html": "92f069e6",
+    "ba315_project.tex": "fbb48908"
+  },
+  "data_analysis/math425/House_analysis.qmd": {
+    "House_analysis.html": "033e9215"
+  },
+  "data_analysis/math425/consulting_analysis.qmd": {
+    "consulting_analysis.html": "7906e11c"
+  },
+  "database/itm111/project_course.qmd": {
+    "project_course.html": "581703c1"
+  },
+  "statistics/math425/House_analysis.qmd": {
+    "House_analysis.html": "73a838bb"
+  },
+  "data_analysis/ds350/fruit_consumption.md": {
+    "fruit_consumption.html": "59d51658"
+  },
+  "data_analysis/ds350/final project.md": {
+    "final project.html": "498dd08d"
+  },
+  "data_analysis/ds350/teacher_ratio.md": {
+    "teacher_ratio.html": "acad42a1"
+  },
+  "data_analysis/ds350/final project.html.md": {
+    "final project.html.html": "a44f403b"
+  },
+  "statistics/math425/final project.qmd": {
+    "final project.html": "c0048651"
+  },
+  "statistics/math425/MyLogisticRegression.qmd": {
+    "MyLogisticRegression.html": "27212658"
+  },
+  "statistics/math425/final_project.qmd": {
+    "final_project.html": "e086dd62"
+  }
+}

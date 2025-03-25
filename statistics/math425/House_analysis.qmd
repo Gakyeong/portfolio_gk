@@ -1,0 +1,12 @@
+---
+title: "Housing Selling Prices"
+subtitle: "__Base R"
+format: 
+  html: 
+    code-fold: true
+    code-line-numbers: true
+    fig-width: 10.5
+    fig-height: 7.5
+---
+
+<iframe src="House-analysis.html" width="100%" height="100%"></iframe>
