@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "quality_analysis/survey.html",
+    "href": "quality_analysis/survey.html",
+    "title": "Survey Analysis",
+    "section": "",
+    "text": "Reporting Curriculum Changes\nI used Qualtrics surveys to monitor curriculum changes within courses and programs, while also gathering feedback from faculty and teams on curriculum effectiveness, course relevance, and alignment with program goals. The surveys were designed to capture changes year over year, enabling longitudinal comparisons and providing a clear view of how curriculum updates evolved across academic years.\n\n\n\n \n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds.\n\nimport qrcode\n\nurl = \"https://gakyeong.github.io/portfolio_gk/\"\nqr = qrcode.make(url)\nqr.save(\"my_qr.png\")\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "data_analysis/data_analysis.html",
+    "href": "data_analysis/data_analysis.html",
+    "title": "Data Analysis",
+    "section": "",
+    "text": "In summary, sellers tend to achieve higher selling prices when their property features over 7 combined rooms and toilets, or when the overall Quality impression is superior. This connection between higher selling prices and these features becomes more apparent when the property has a larger total square footage, highlighting the influence of both the number of rooms/toilets and quality on the sale price."
+  },
+  {
+    "objectID": "data_analysis/data_analysis.html#httpsgithub.comgakyeongdata-analysistreemainteacher_ratio",
+    "href": "data_analysis/data_analysis.html#httpsgithub.comgakyeongdata-analysistreemainteacher_ratio",
+    "title": "Data Analysis",
+    "section": "https://github.com/Gakyeong/data-analysis/tree/main/teacher_ratio",
+    "text": "https://github.com/Gakyeong/data-analysis/tree/main/teacher_ratio"
+  },
+  {
+    "objectID": "database/database.html",
+    "href": "database/database.html",
+    "title": "Database Management",
+    "section": "",
+    "text": "I designed a relational database schema using an Entity-Relationship Diagram (ERD), incorporating key entities such as students, faculty, courses, departments, and enrollments with well-defined relationships. To ensure data integrity, I structured tables efficiently to reduce redundancy. The schema supports queries that retrieve relevant information, such as identifying faculty teaching a particular student in a given term, determining the number of courses offered, analyzing faculty teaching capacities, and filtering data based on specific criteria."
+  },
+  {
+    "objectID": "database/database.html#university-enrollment-erd",
+    "href": "database/database.html#university-enrollment-erd",
+    "title": "Database Management",
+    "section": "",
+    "text": "I designed a relational database schema using an Entity-Relationship Diagram (ERD), incorporating key entities such as students, faculty, courses, departments, and enrollments with well-defined relationships. To ensure data integrity, I structured tables efficiently to reduce redundancy. The schema supports queries that retrieve relevant information, such as identifying faculty teaching a particular student in a given term, determining the number of courses offered, analyzing faculty teaching capacities, and filtering data based on specific criteria."
+  },
+  {
+    "objectID": "database/database.html#erd",
+    "href": "database/database.html#erd",
+    "title": "Database Management",
+    "section": "ERD",
+    "text": "ERD"
+  },
+  {
+    "objectID": "database/database.html#httpsgithub.comgakyeonguniversity-enrollment",
+    "href": "database/database.html#httpsgithub.comgakyeonguniversity-enrollment",
+    "title": "Database Management",
+    "section": "https://github.com/Gakyeong/University-Enrollment",
+    "text": "https://github.com/Gakyeong/University-Enrollment"
+  },
+  {
+    "objectID": "data_visualization/data_visualization.html",
+    "href": "data_visualization/data_visualization.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "The Ticket Dashboard provides a centralized view of all support tickets, allowing teams to monitor, track, and manage requests efficiently. It displays key metrics such as ticket status, Request type, and response times."
+  },
+  {
+    "objectID": "data_visualization/data_visualization.html#ticket-dashboard",
+    "href": "data_visualization/data_visualization.html#ticket-dashboard",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "The Ticket Dashboard provides a centralized view of all support tickets, allowing teams to monitor, track, and manage requests efficiently. It displays key metrics such as ticket status, Request type, and response times."
+  },
+  {
+    "objectID": "data_visualization/data_visualization.html#informer-dashboard",
+    "href": "data_visualization/data_visualization.html#informer-dashboard",
+    "title": "Data Visualization",
+    "section": "Informer Dashboard",
+    "text": "Informer Dashboard\nThe Informer Dashboard provides an interactive overview of curriculum updates and changes across academic years. It allows educators and administrators to track modifications in changes year and year. By providing a clear view of curriculum progression, it supports data-driven decisions, ensures alignment with standards, and helps stakeholders plan effectively for upcoming academic years."
+  },
+  {
+    "objectID": "data_visualization/data_visualization.html#dax",
+    "href": "data_visualization/data_visualization.html#dax",
+    "title": "Data Visualization",
+    "section": "DAX",
+    "text": "DAX\nIn report, I used DAX to analyze case holds over time. I calculated monthly counts of cases on hold, allowing for easy monitoring of trends and workload fluctuations. Additionally, I implemented three-year flags to identify cases that have not been on scheduled across multiple years, highlighting long-standing or recurring issues."
+  },
+  {
+    "objectID": "data_visualization/data_visualization.html#power-automate",
+    "href": "data_visualization/data_visualization.html#power-automate",
+    "title": "Data Visualization",
+    "section": "Power Automate",
+    "text": "Power Automate\nI leveraged Power Automate to streamline the processing of the the Report. By automating data transformation, I was able to reduces manual effort, ensures consistency across reports, and allows for timely updates."
+  },
+  {
+    "objectID": "machine_learning/machine_learning.html",
+    "href": "machine_learning/machine_learning.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "I developed an automated Weekly Email Digest that consolidates key updates and insights into a single, easy-to-read email. Using a combination of NLP and automation tools, the system summarizes content from multiple sources—including emails, RSS feeds, and internal reports—into a concise weekly overview. The workflow schedules and distributes the digest automatically, ensuring stakeholders receive timely, relevant information without manual effort. This approach improves information visibility, reduces time spent sifting through data, and keeps teams aligned on important updates."
+  },
+  {
+    "objectID": "machine_learning/machine_learning.html#weekly-email-digest",
+    "href": "machine_learning/machine_learning.html#weekly-email-digest",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "I developed an automated Weekly Email Digest that consolidates key updates and insights into a single, easy-to-read email. Using a combination of NLP and automation tools, the system summarizes content from multiple sources—including emails, RSS feeds, and internal reports—into a concise weekly overview. The workflow schedules and distributes the digest automatically, ensuring stakeholders receive timely, relevant information without manual effort. This approach improves information visibility, reduces time spent sifting through data, and keeps teams aligned on important updates."
+  },
+  {
+    "objectID": "machine_learning/machine_learning.html#final-output",
+    "href": "machine_learning/machine_learning.html#final-output",
+    "title": "Machine Learning",
+    "section": "Final Output",
+    "text": "Final Output"
+  },
+  {
+    "objectID": "machine_learning/machine_learning.html#httpsgithub.comgakyeongnewsfeed",
+    "href": "machine_learning/machine_learning.html#httpsgithub.comgakyeongnewsfeed",
+    "title": "Machine Learning",
+    "section": "https://github.com/Gakyeong/Newsfeed",
+    "text": "https://github.com/Gakyeong/Newsfeed"
+  }
+]

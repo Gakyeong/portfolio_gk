@@ -1,0 +1,46 @@
+/* css styles */
+
+.navbar {
+    background-color: #52ab98; 
+    color: white;
+}
+
+.navbar a{
+    color: white;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+.footer, .nav-footer, .nav-footer-left, .nav-footer-right, .nav-footer-center{
+    background-color: #52ab98; 
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Show the dropdown when clicked */
+.navbar .dropdown.open .dropdown-menu {
+    display: block;
+}
+
+/* Style the individual menu items (block display) */
+.navbar .dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #c8d8e4;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background color on hover */
+.navbar .dropdown-menu a:hover {
+    background-color: #2b6777;
+    color: white;
+}
+
+/* Remove border on the last item */
+.navbar .dropdown-menu a:last-child {
+    border-bottom: none;
+}
