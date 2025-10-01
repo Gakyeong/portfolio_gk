@@ -28,5 +28,5 @@ qr.save("my_qr.png")
 ```
 
 ::: {.cell-output-display}
-![](../portfolio_gk/my_qr.png){width=1008}
+![](../portfolio_gk/my_qr.png){height=380}
 :::
