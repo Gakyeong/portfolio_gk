@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Introduction",
     "section": "",
-    "text": "I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds.\n\nimport qrcode\n\nurl = \"https://gakyeong.github.io/portfolio_gk/\"\nqr = qrcode.make(url)\nqr.save(\"my_qr.png\")\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds.\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "data_analysis/data_analysis.html",
