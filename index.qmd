@@ -19,6 +19,14 @@ about:
 
 I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds. 
 
+```{python}
+import qrcode
 
+url = "https://gakyeong.github.io/portfolio_gk/"
+qr = qrcode.make(url)
+qr.save("my_qr.png")
+```
 
-
+::: {.cell-output-display}
+![](../portfolio_gk/my_qr.png){width=1008}
+:::
