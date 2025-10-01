@@ -18,7 +18,6 @@ format:
 
 
 
-
 ## Ticket Dashboard
 The Ticket Dashboard provides a centralized view of all support tickets, allowing teams to monitor, track, and manage requests efficiently. It displays key metrics such as ticket status, Request type, and response times.
 
@@ -46,5 +45,5 @@ Additionally, I implemented three-year flags to identify cases that have not bee
 I leveraged Power Automate to streamline the processing of the the Report. By automating data transformation, I was able to reduces manual effort, ensures consistency across reports, and allows for timely updates. 
 
 ::: {.cell-output-display}
-![](../data_visualization/images/powerautomate.jpg){height=180}
+![](../data_visualization/images/powerautomate.jpg){height=380}
 :::
