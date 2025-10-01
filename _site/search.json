@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds.\n\n\n Back to top"
+  },
+  {
     "objectID": "quality_analysis/survey.html",
     "href": "quality_analysis/survey.html",
     "title": "Survey Analysis",
@@ -7,11 +14,11 @@
     "text": "Reporting Curriculum Changes\nI used Qualtrics surveys to monitor curriculum changes within courses and programs, while also gathering feedback from faculty and teams on curriculum effectiveness, course relevance, and alignment with program goals. The surveys were designed to capture changes year over year, enabling longitudinal comparisons and providing a clear view of how curriculum updates evolved across academic years.\n\n\n\n \n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Introduction",
+    "objectID": "docs/quality_analysis/survey.html",
+    "href": "docs/quality_analysis/survey.html",
+    "title": "Survey Analysis",
     "section": "",
-    "text": "I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds.\n\n\n Back to top"
+    "text": "Reporting Curriculum Changes\nI used Qualtrics surveys to monitor curriculum changes within courses and programs, while also gathering feedback from faculty and teams on curriculum effectiveness, course relevance, and alignment with program goals. The surveys were designed to capture changes year over year, enabling longitudinal comparisons and providing a clear view of how curriculum updates evolved across academic years.\n\n\n\n \n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "data_analysis/data_analysis.html",
