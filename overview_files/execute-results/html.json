@@ -1,0 +1,12 @@
+{
+  "hash": "51cdf19a28ad576aff7df26274e273d3",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Preview of Portfolio\"\nformat: \n  html:\n    code-fold: true\n    code-line-numbers: true\n    fig-width: 10.5\n    fig-height: 7.5\n    allow-html: true \n---\n\n```{html}\n<div class=\"gallery\">\n  <div class=\"card\">\n    <h3 class=\"card-title\">Email Digest</h3>\n    <h4 class=\"card-subtitle\">Machine Learning</h4>\n    <p class=\"card-skills\">📊 Python: API, Hugging Face | GitHub </p>\n    <p class=\"card-description\">\n      Automated weekly education news digest by integrating Gmail API and RSS feeds, applying NLP summarization to condense articles into concise insights\n    </p>\n    <a href=\"https://github.com/Gakyeong/Newsfeed\" target=\"_blank\" class=\"card-link\">\n      🔗 View on GitHub\n    </a>\n  </div>\n</div>\n```\n\n",
+    "supporting": [
+      "overview_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

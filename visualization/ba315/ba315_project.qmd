@@ -1,8 +1,0 @@
----
-title: "Fund Recommendation(Power BI)"
-format: html
----
-
-```{=html}
-<object data="ba315_project.pdf" type="application/pdf" width=100% height=100%>
-</object>

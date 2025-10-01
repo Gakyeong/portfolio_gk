@@ -1,0 +1,17 @@
+---
+title: "Machine Learning"
+subtitle: Transformers, API, GitHub Action
+format: 
+  html: 
+    code-fold: true
+    code-line-numbers: true
+    fig-width: 10.5
+    fig-height: 7.5
+---
+## Weekly Email Digest
+I developed an automated Weekly Email Digest that consolidates key updates and insights into a single, easy-to-read email. Using a combination of NLP and automation tools, the system summarizes content from multiple sources—including emails, RSS feeds, and internal reports—into a concise weekly overview. The workflow schedules and distributes the digest automatically, ensuring stakeholders receive timely, relevant information without manual effort. This approach improves information visibility, reduces time spent sifting through data, and keeps teams aligned on important updates.
+
+## Final Output
+![](image.png)
+
+## [https://github.com/Gakyeong/Newsfeed](link)

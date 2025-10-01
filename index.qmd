@@ -1,40 +1,24 @@
 ---
 title: "Introduction"
 about:
-  template: solana
+  template: jolla
   image: "Gakyeong_Bae-4.jpg"
   links:
+    - icon: file-text
+      text: Resume
+      href: GAKYEONG BAE _Resume.pdf 
+
     - icon: github
       text: Github
       href: https://github.com/Gakyeong
+
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/gakyeong-bae/
 ---
 
 I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds. 
 
-## Education
 
-Brigham Young University - Idaho | Rexburg, ID <br>
-* Bachelor of Mathematics in Data Science<br>
-* Minor | Statistics<br>
-* Certificate | Database, Web Fronted <br>
-<br>
-Relevant Skills | <br>
-Machine Learning, Business Analysis, Data Wrangling/Visualization, APIs, Time Series Analysis, Multiple Linear Regression, Database Management, Dynamic Websites
 
-## Experience
 
-* Lead Data Visualization Specialist | Sep 2023 - Present
-* SRR Curriculum Processor | Sep 2022 - Sep 2023
-* Operator & Manager | Jan 2018 - Dec 2021
-
-## Skills
-
-* Power BI
-* SQL
-* Python
-* R
-* Databricks
-* GitHub
-* HTML 
-* CSS
-* JavaScript

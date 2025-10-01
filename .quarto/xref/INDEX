@@ -50,5 +50,26 @@
   },
   "statistics/math425/final_project.qmd": {
     "final_project.html": "e086dd62"
+  },
+  "overview.qmd": {
+    "overview.html": "61ede564"
+  },
+  "database/database.qmd": {
+    "database.html": "e6bb221d"
+  },
+  "data_analysis/teacher_ratio/data_analysis.qmd": {
+    "data_analysis.html": "baaa3c65"
+  },
+  "data_visualization/data_visualization.qmd": {
+    "data_visualization.html": "4e902684"
+  },
+  "machine_learning/machine_learning.qmd": {
+    "machine_learning.html": "a649c97b"
+  },
+  "quality_analysis/survey.qmd": {
+    "survey.html": "05fb39b4"
+  },
+  "data_analysis/data_analysis.qmd": {
+    "data_analysis.html": "ca9ea435"
   }
 }

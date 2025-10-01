@@ -6,9 +6,6 @@ website:
   back-to-top-navigation: true
   page-footer: 
     left: "Copyright 2025, Gakyeong Bae" 
-    right: 
-      - icon: github
-        href: https://github.com/Gakyeong
     foreground: light
   navbar:
     foreground: light
@@ -16,40 +13,18 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-
-      - text: "Data Analysis"
-        menu:
-        - text: "Teacher Ratio Analysis"
-          href: data_analysis/ds350/teacher_ratio.md
-        - text: "Fruit Consumption Analysis"
-          href: data_analysis/ds350/fruit_consumption.md
-        - text: "Understanding Flight Delays"
-          href: data_analysis/ds250/project2.md
-
-      - text: "Statistical Analysis"
-        menu:
-        - text: "The Impacton Graduation Rates"
-          href: statistics/math425/final_project.qmd
-        - text: "Housing Selling Prices"
-          href: statistics/math425/House_analysis.qmd
-        - text: "Logistic Regression for Stock Volumn"
-          href: statistics/math425/MyLogisticRegression.qmd
-
-
-      - text: "Machine Learning"
-        menu:
-        - text: "Machine Learning"
-          href: index.qmd
-
       - text: "Visualization"
-        menu:
-        - text: "Fund Recommendation"
-          href: visualization/ba315/ba315_project.qmd
-
-      - text: "Database Management"
-        menu:
-        - text: "University Enrollment ERD"
-          href: database/itm111/project_course.qmd
+        href: data_visualization/data_visualization.qmd
+      - text: "Database"
+        href: database/database.qmd
+      - text: "Machine_learning"
+        href: machine_learning/machine_learning.qmd
+      - text: "Analysis"
+        href: data_analysis/data_analysis.qmd
+      - text: "Survey"
+        href: quality_analysis/survey.qmd
+      
+      
 
 language: 
   search-text-placeholder: "Search"

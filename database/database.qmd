@@ -1,0 +1,17 @@
+---
+title: "Database Management"
+subtitle: SQL
+format: 
+  html: 
+    code-fold: true
+    code-line-numbers: true
+    fig-width: 10.5
+    fig-height: 7.5
+---
+## University Enrollment ERD
+I designed a relational database schema using an Entity-Relationship Diagram (ERD), incorporating key entities such as students, faculty, courses, departments, and enrollments with well-defined relationships. To ensure data integrity, I structured tables efficiently to reduce redundancy. The schema supports queries that retrieve relevant information, such as identifying faculty teaching a particular student in a given term, determining the number of courses offered, analyzing faculty teaching capacities, and filtering data based on specific criteria.
+
+## ERD
+![](image.png)
+
+## [https://github.com/Gakyeong/University-Enrollment](link)
