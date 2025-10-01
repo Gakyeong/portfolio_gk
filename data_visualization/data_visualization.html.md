@@ -37,12 +37,12 @@ Additionally, I implemented three-year flags to identify cases that have not bee
 
 ::: {.cell-output-display}
 ![](../data_visualization/images/dax1.jpg){width=1008}
-![](../data_visualization/images/dax2.png){width=1008}
+![](../data_visualization/images/dax2.png){height=580}
 :::
 
 ## Power Automate
 I leveraged Power Automate to streamline the processing of the the Report. By automating data transformation, I was able to reduces manual effort, ensures consistency across reports, and allows for timely updates. 
 
 ::: {.cell-output-display}
-![](../data_visualization/images/powerautomate.jpg){height=380}
+![](../data_visualization/images/powerautomate.jpg){height=580}
 :::

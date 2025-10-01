@@ -13,6 +13,6 @@ format:
 I used Qualtrics surveys to monitor curriculum changes within courses and programs, while also gathering feedback from faculty and teams on curriculum effectiveness, course relevance, and alignment with program goals. The surveys were designed to capture changes year over year, enabling longitudinal comparisons and providing a clear view of how curriculum updates evolved across academic years.
 
 ::: {.cell-output-display}
-![](../quality_analysis/survey.qmd){width=1008}
+![](../quality_analysis/qualtrics.png){width=1008}
 ![](../quality_analysis/report.png){width=1008}
 :::
