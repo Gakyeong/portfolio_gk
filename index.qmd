@@ -1,12 +1,19 @@
 ---
 title: "Introduction"
+
+resources:
+  - resume.pdf
+  - Gakyeong_Bae-4.jpg
+
 about:
   template: jolla
   image: "Gakyeong_Bae-4.jpg"
+
   links:
     - icon: file-text
       text: Resume
-      href: "GAKYEONG_BAE_Resume.pdf"
+      href: "resume.pdf"
+      target: "_blank"
 
     - icon: github
       text: Github
