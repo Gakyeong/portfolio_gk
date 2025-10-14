@@ -6,7 +6,7 @@ about:
   links:
     - icon: file-text
       text: Resume
-      href: GAKYEONG BAE _Resume.pdf 
+      href: "GAKYEONG_BAE _Resume.pdf"
 
     - icon: github
       text: Github
