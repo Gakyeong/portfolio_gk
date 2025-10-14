@@ -16,7 +16,7 @@ In summary, sellers tend to achieve higher selling prices when their property fe
 ![](../data_analysis/housing/housing.png){width=1008}
 :::
 
-## [:fontawesome-brands-github:HousingPrice](https://github.com/Gakyeong/data-analysis/tree/main/housing_price)
+## [HousingPrice](https://github.com/Gakyeong/data-analysis/tree/main/housing_price)
 
 # Relationship between school drop, teacher's ratio, and salary
 
@@ -57,4 +57,4 @@ The black line above represents the average salary of teachers in the US, indica
 ![](../data_analysis/teacher_ratio/figure-html/unnamed-chunk-9-1.png){width=1008}
 :::
 
-## [:fontawesome-brands-github:TeacherRatio](https://github.com/Gakyeong/data-analysis/tree/main/teacher_ratio)
+## [TeacherRatio](https://github.com/Gakyeong/data-analysis/tree/main/teacher_ratio)

@@ -14,4 +14,4 @@ I developed an automated Weekly Email Digest that consolidates key updates and i
 ## Final Output
 ![](image.png)
 
-## [:fontawesome-brands-github:Newsfeed](https://github.com/Gakyeong/Newsfeed)
+## [Newsfeed](https://github.com/Gakyeong/Newsfeed)

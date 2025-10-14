@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Introduction",
     "section": "",
-    "text": "I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds.\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds.\n\nProjects - Github Links\n\nUniversity Enrollment\nNewsfeed\nHousingPrice\nTeacherRatio\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "data_analysis/data_analysis.html",
@@ -117,5 +117,47 @@
     "title": "Machine Learning",
     "section": "https://github.com/Gakyeong/Newsfeed",
     "text": "https://github.com/Gakyeong/Newsfeed"
+  },
+  {
+    "objectID": "machine_learning/machine_learning.html#fontawesome-brands-githubnewsfeed",
+    "href": "machine_learning/machine_learning.html#fontawesome-brands-githubnewsfeed",
+    "title": "Machine Learning",
+    "section": ":fontawesome-brands-github:Newsfeed",
+    "text": ":fontawesome-brands-github:Newsfeed"
+  },
+  {
+    "objectID": "database/database.html#fontawesome-brands-github-university-enrollment",
+    "href": "database/database.html#fontawesome-brands-github-university-enrollment",
+    "title": "Database Management",
+    "section": ":fontawesome-brands-github: University Enrollment",
+    "text": ":fontawesome-brands-github: University Enrollment"
+  },
+  {
+    "objectID": "data_analysis/data_analysis.html#fontawesome-brands-githubteacherratio",
+    "href": "data_analysis/data_analysis.html#fontawesome-brands-githubteacherratio",
+    "title": "Data Analysis",
+    "section": ":fontawesome-brands-github:TeacherRatio",
+    "text": ":fontawesome-brands-github:TeacherRatio"
+  },
+  {
+    "objectID": "machine_learning/machine_learning.html#newsfeed",
+    "href": "machine_learning/machine_learning.html#newsfeed",
+    "title": "Machine Learning",
+    "section": "Newsfeed",
+    "text": "Newsfeed"
+  },
+  {
+    "objectID": "database/database.html#university-enrollment",
+    "href": "database/database.html#university-enrollment",
+    "title": "Database Management",
+    "section": "University Enrollment",
+    "text": "University Enrollment"
+  },
+  {
+    "objectID": "data_analysis/data_analysis.html#teacherratio",
+    "href": "data_analysis/data_analysis.html#teacherratio",
+    "title": "Data Analysis",
+    "section": "TeacherRatio",
+    "text": "TeacherRatio"
   }
 ]
