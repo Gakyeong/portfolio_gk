@@ -27,6 +27,13 @@ about:
 
 I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds. 
 
+### Projects
+- [University Enrollment](https://github.com/Gakyeong/University-Enrollment)
+- [Newsfeed](https://github.com/Gakyeong/Newsfeed)
+- [HousingPrice](https://github.com/Gakyeong/data-analysis/tree/main/housing_price)
+- [TeacherRatio](https://github.com/Gakyeong/data-analysis/tree/main/teacher_ratio)
+
+
 ::: {.cell-output-display}
-![](../portfolio_gk/my_qr.png){height=380}
+![](my_qr.png){height=380}
 :::

@@ -14,4 +14,4 @@ I designed a relational database schema using an Entity-Relationship Diagram (ER
 ## ERD
 ![](image.png)
 
-## [https://github.com/Gakyeong/University-Enrollment](link)
+## [:fontawesome-brands-github: University Enrollment](https://github.com/Gakyeong/University-Enrollment)
