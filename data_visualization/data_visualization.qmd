@@ -41,4 +41,14 @@ I leveraged Power Automate to streamline the processing of the the Report. By au
 
 ::: {.cell-output-display}
 ![](../data_visualization/images/powerautomate.jpg){height=380}
+![](../data_visualization/images/powerautomate1.jpg){height=380}
+![](../data_visualization/images/powerautomate2.png){height=380}
+:::
+
+## Power App
+I Developed a Power Apps application to manage and maintain metadata sources, enabling structured tracking of data assets in environments with limited access to system log data. Designed four role-based pages (Activity, Update, New, Retire) with dynamic fields tailored to each workflow stage. Integrated the app with SharePoint Lists for centralized data storage and implemented role-based access control using Microsoft Teams permissions to ensure secure and controlled data management.
+
+::: {.cell-output-display}
+![](../data_visualization/images/powerapp.png){width=1008}
+
 :::
