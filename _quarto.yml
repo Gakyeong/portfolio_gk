@@ -14,11 +14,13 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Visualization"
+      - text: "Vis"
         href: data_visualization/data_visualization.qmd
+      - text: "Eng"
+        href: data_visualization/data_engineering.qmd
       - text: "Database"
         href: database/database.qmd
-      - text: "Machine_learning"
+      - text: "ML/AI"
         href: machine_learning/machine_learning.qmd
       - text: "Analysis"
         href: data_analysis/data_analysis.qmd
