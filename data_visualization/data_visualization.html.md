@@ -1,6 +1,6 @@
 ---
 title: "Data Visualization"
-subtitle: Power BI, Dax, Power Automate
+subtitle: Power BI, Dax, Power Automate, Power App
 execute:
   keep-md: true
   warning: false
@@ -12,7 +12,6 @@ format:
     fig-width: 10.5
     fig-height: 7.5
 ---
-
 
 
 

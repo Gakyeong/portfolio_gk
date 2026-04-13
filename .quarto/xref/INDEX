@@ -74,5 +74,8 @@
   },
   "docs/quality_analysis/survey.qmd": {
     "survey.html": "9849b60b"
+  },
+  "data_engineering/data_engineering.qmd": {
+    "data_engineering.html": "a9c29322"
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: "Data Visualization"
-subtitle: Power BI, Dax, Power Automate
+subtitle: Power BI, Dax, Power Automate, Power App
 execute:
   keep-md: true
   warning: false
