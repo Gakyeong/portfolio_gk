@@ -14,18 +14,18 @@
     "text": "I love every story. The real story broadens my views to change myself. Dealing with data is like a treasure hunter of stories. I think it is a fascinating job to find hidden stories and their effect on people’s minds.\n\nProjects - Github Links\n\nUniversity Enrollment\nNewsfeed\nHousingPrice\nTeacherRatio\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "data_analysis/data_analysis.html",
-    "href": "data_analysis/data_analysis.html",
-    "title": "Data Analysis",
+    "objectID": "data_engineering/data_engineering.html",
+    "href": "data_engineering/data_engineering.html",
+    "title": "Data Engineering",
     "section": "",
-    "text": "In summary, sellers tend to achieve higher selling prices when their property features over 7 combined rooms and toilets, or when the overall Quality impression is superior. This connection between higher selling prices and these features becomes more apparent when the property has a larger total square footage, highlighting the influence of both the number of rooms/toilets and quality on the sale price."
+    "text": "The stock analysis tool I built in Streamlit takes all the messy, complicated market data and turns it into a clear, easy‑to‑read snapshot of how a stock is doing. Instead of making users jump between charts and numbers, everything—performance, trends, and comparisons—is organized in one clean dashboard. The overall score and Buy/Hold/Sell signal give a quick sense of whether a stock looks strong or risky, and the AI commentary explains what’s happening in plain language. This helps everyday investors save time, avoid confusion, and make smarter decisions with confidence. The main selling point is simple: it makes professional‑level analysis fast, understandable, and accessible to anyone.\n   \n\n\n\nThe project begins with data ingestion, where external sources such as Open‑Meteo and other APIs provide raw weather or market data. This raw data is first collected through an EtLT pipeline, meaning the system extracts the data, performs lightweight transformations if needed, and then loads it into the RAW layer of Snowflake. In some cases, data may arrive through SFTP and MongoDB, where files are dropped into a secure folder and automatically picked up by the pipeline. Apache Airflow orchestrates these ingestion tasks using DAGs, ensuring that data is pulled on a schedule, validated, and stored consistently.\nOnce the raw data is inside Snowflake, the next stage is data transformation and modeling. This is where dbt plays a central role. dbt takes the raw tables and applies business logic, cleaning steps, joins, and calculations to produce the MODELED layer. These modeled tables are structured for analytics — for example, combining weather data with time dimensions, or preparing stock data with rolling averages and cumulative metrics. dbt ensures that every transformation is version‑controlled, testable, and reproducible, which is essential for a production‑ready data warehouse.\nAfter the data is modeled, it becomes available for downstream applications. Streamlit application acts as the front‑end interface for end users. Streamlit connects to Snowflake to pull the modeled data and visualize it through charts, tables, and interactive components. This is where users can explore trends, compare metrics, and interact with the data in real time.\nThe final layer of the product integrates Snowflake Cortex AI and your Streamlit AI assistant. Cortex AI provides natural‑language commentary, sentiment scoring, and automated insights directly on top of the modeled data. In Streamlit, this appears as an AI assistant that explains trends, summarizes performance, or answers user questions about the data. This transforms the dashboard from a static visualization tool into an intelligent decision‑support system."
   },
   {
-    "objectID": "data_analysis/data_analysis.html#httpsgithub.comgakyeongdata-analysistreemainteacher_ratio",
-    "href": "data_analysis/data_analysis.html#httpsgithub.comgakyeongdata-analysistreemainteacher_ratio",
-    "title": "Data Analysis",
-    "section": "https://github.com/Gakyeong/data-analysis/tree/main/teacher_ratio",
-    "text": "https://github.com/Gakyeong/data-analysis/tree/main/teacher_ratio"
+    "objectID": "data_engineering/data_engineering.html#stock-analysis-dashboard",
+    "href": "data_engineering/data_engineering.html#stock-analysis-dashboard",
+    "title": "Data Engineering",
+    "section": "",
+    "text": "The stock analysis tool I built in Streamlit takes all the messy, complicated market data and turns it into a clear, easy‑to‑read snapshot of how a stock is doing. Instead of making users jump between charts and numbers, everything—performance, trends, and comparisons—is organized in one clean dashboard. The overall score and Buy/Hold/Sell signal give a quick sense of whether a stock looks strong or risky, and the AI commentary explains what’s happening in plain language. This helps everyday investors save time, avoid confusion, and make smarter decisions with confidence. The main selling point is simple: it makes professional‑level analysis fast, understandable, and accessible to anyone.\n   \n\n\n\nThe project begins with data ingestion, where external sources such as Open‑Meteo and other APIs provide raw weather or market data. This raw data is first collected through an EtLT pipeline, meaning the system extracts the data, performs lightweight transformations if needed, and then loads it into the RAW layer of Snowflake. In some cases, data may arrive through SFTP and MongoDB, where files are dropped into a secure folder and automatically picked up by the pipeline. Apache Airflow orchestrates these ingestion tasks using DAGs, ensuring that data is pulled on a schedule, validated, and stored consistently.\nOnce the raw data is inside Snowflake, the next stage is data transformation and modeling. This is where dbt plays a central role. dbt takes the raw tables and applies business logic, cleaning steps, joins, and calculations to produce the MODELED layer. These modeled tables are structured for analytics — for example, combining weather data with time dimensions, or preparing stock data with rolling averages and cumulative metrics. dbt ensures that every transformation is version‑controlled, testable, and reproducible, which is essential for a production‑ready data warehouse.\nAfter the data is modeled, it becomes available for downstream applications. Streamlit application acts as the front‑end interface for end users. Streamlit connects to Snowflake to pull the modeled data and visualize it through charts, tables, and interactive components. This is where users can explore trends, compare metrics, and interact with the data in real time.\nThe final layer of the product integrates Snowflake Cortex AI and your Streamlit AI assistant. Cortex AI provides natural‑language commentary, sentiment scoring, and automated insights directly on top of the modeled data. In Streamlit, this appears as an AI assistant that explains trends, summarizes performance, or answers user questions about the data. This transforms the dashboard from a static visualization tool into an intelligent decision‑support system."
   },
   {
     "objectID": "database/database.html",
@@ -49,11 +49,25 @@
     "text": "ERD"
   },
   {
-    "objectID": "database/database.html#httpsgithub.comgakyeonguniversity-enrollment",
-    "href": "database/database.html#httpsgithub.comgakyeonguniversity-enrollment",
+    "objectID": "database/database.html#university-enrollment",
+    "href": "database/database.html#university-enrollment",
     "title": "Database Management",
-    "section": "https://github.com/Gakyeong/University-Enrollment",
-    "text": "https://github.com/Gakyeong/University-Enrollment"
+    "section": "University Enrollment",
+    "text": "University Enrollment"
+  },
+  {
+    "objectID": "data_analysis/data_analysis.html",
+    "href": "data_analysis/data_analysis.html",
+    "title": "Data Analysis",
+    "section": "",
+    "text": "In summary, sellers tend to achieve higher selling prices when their property features over 7 combined rooms and toilets, or when the overall Quality impression is superior. This connection between higher selling prices and these features becomes more apparent when the property has a larger total square footage, highlighting the influence of both the number of rooms/toilets and quality on the sale price."
+  },
+  {
+    "objectID": "data_analysis/data_analysis.html#teacherratio",
+    "href": "data_analysis/data_analysis.html#teacherratio",
+    "title": "Data Analysis",
+    "section": "TeacherRatio",
+    "text": "TeacherRatio"
   },
   {
     "objectID": "data_visualization/data_visualization.html",
@@ -91,6 +105,13 @@
     "text": "Power Automate\nI leveraged Power Automate to streamline the processing of the the Report. By automating data transformation, I was able to reduces manual effort, ensures consistency across reports, and allows for timely updates."
   },
   {
+    "objectID": "data_visualization/data_visualization.html#power-app",
+    "href": "data_visualization/data_visualization.html#power-app",
+    "title": "Data Visualization",
+    "section": "Power App",
+    "text": "Power App\nI Developed a Power Apps application to manage and maintain metadata sources, enabling structured tracking of data assets in environments with limited access to system log data. Designed four role-based pages (Activity, Update, New, Retire) with dynamic fields tailored to each workflow stage. Integrated the app with SharePoint Lists for centralized data storage and implemented role-based access control using Microsoft Teams permissions to ensure secure and controlled data management."
+  },
+  {
     "objectID": "machine_learning/machine_learning.html",
     "href": "machine_learning/machine_learning.html",
     "title": "Machine Learning",
@@ -112,73 +133,10 @@
     "text": "Final Output"
   },
   {
-    "objectID": "machine_learning/machine_learning.html#httpsgithub.comgakyeongnewsfeed",
-    "href": "machine_learning/machine_learning.html#httpsgithub.comgakyeongnewsfeed",
-    "title": "Machine Learning",
-    "section": "https://github.com/Gakyeong/Newsfeed",
-    "text": "https://github.com/Gakyeong/Newsfeed"
-  },
-  {
-    "objectID": "machine_learning/machine_learning.html#fontawesome-brands-githubnewsfeed",
-    "href": "machine_learning/machine_learning.html#fontawesome-brands-githubnewsfeed",
-    "title": "Machine Learning",
-    "section": ":fontawesome-brands-github:Newsfeed",
-    "text": ":fontawesome-brands-github:Newsfeed"
-  },
-  {
-    "objectID": "database/database.html#fontawesome-brands-github-university-enrollment",
-    "href": "database/database.html#fontawesome-brands-github-university-enrollment",
-    "title": "Database Management",
-    "section": ":fontawesome-brands-github: University Enrollment",
-    "text": ":fontawesome-brands-github: University Enrollment"
-  },
-  {
-    "objectID": "data_analysis/data_analysis.html#fontawesome-brands-githubteacherratio",
-    "href": "data_analysis/data_analysis.html#fontawesome-brands-githubteacherratio",
-    "title": "Data Analysis",
-    "section": ":fontawesome-brands-github:TeacherRatio",
-    "text": ":fontawesome-brands-github:TeacherRatio"
-  },
-  {
     "objectID": "machine_learning/machine_learning.html#newsfeed",
     "href": "machine_learning/machine_learning.html#newsfeed",
     "title": "Machine Learning",
     "section": "Newsfeed",
     "text": "Newsfeed"
-  },
-  {
-    "objectID": "database/database.html#university-enrollment",
-    "href": "database/database.html#university-enrollment",
-    "title": "Database Management",
-    "section": "University Enrollment",
-    "text": "University Enrollment"
-  },
-  {
-    "objectID": "data_analysis/data_analysis.html#teacherratio",
-    "href": "data_analysis/data_analysis.html#teacherratio",
-    "title": "Data Analysis",
-    "section": "TeacherRatio",
-    "text": "TeacherRatio"
-  },
-  {
-    "objectID": "data_visualization/data_visualization.html#power-app",
-    "href": "data_visualization/data_visualization.html#power-app",
-    "title": "Data Visualization",
-    "section": "Power App",
-    "text": "Power App\nI Developed a Power Apps application to manage and maintain metadata sources, enabling structured tracking of data assets in environments with limited access to system log data. Designed four role-based pages (Activity, Update, New, Retire) with dynamic fields tailored to each workflow stage. Integrated the app with SharePoint Lists for centralized data storage and implemented role-based access control using Microsoft Teams permissions to ensure secure and controlled data management."
-  },
-  {
-    "objectID": "data_engineering/data_engineering.html",
-    "href": "data_engineering/data_engineering.html",
-    "title": "Data Engineering",
-    "section": "",
-    "text": "The stock analysis tool I built in Streamlit takes all the messy, complicated market data and turns it into a clear, easy‑to‑read snapshot of how a stock is doing. Instead of making users jump between charts and numbers, everything—performance, trends, and comparisons—is organized in one clean dashboard. The overall score and Buy/Hold/Sell signal give a quick sense of whether a stock looks strong or risky, and the AI commentary explains what’s happening in plain language. This helps everyday investors save time, avoid confusion, and make smarter decisions with confidence. The main selling point is simple: it makes professional‑level analysis fast, understandable, and accessible to anyone.\n   \n\n\n\nThe project begins with data ingestion, where external sources such as Open‑Meteo and other APIs provide raw weather or market data. This raw data is first collected through an EtLT pipeline, meaning the system extracts the data, performs lightweight transformations if needed, and then loads it into the RAW layer of Snowflake. In some cases, data may arrive through SFTP and MongoDB, where files are dropped into a secure folder and automatically picked up by the pipeline. Apache Airflow orchestrates these ingestion tasks using DAGs, ensuring that data is pulled on a schedule, validated, and stored consistently.\nOnce the raw data is inside Snowflake, the next stage is data transformation and modeling. This is where dbt plays a central role. dbt takes the raw tables and applies business logic, cleaning steps, joins, and calculations to produce the MODELED layer. These modeled tables are structured for analytics — for example, combining weather data with time dimensions, or preparing stock data with rolling averages and cumulative metrics. dbt ensures that every transformation is version‑controlled, testable, and reproducible, which is essential for a production‑ready data warehouse.\nAfter the data is modeled, it becomes available for downstream applications. Streamlit application acts as the front‑end interface for end users. Streamlit connects to Snowflake to pull the modeled data and visualize it through charts, tables, and interactive components. This is where users can explore trends, compare metrics, and interact with the data in real time.\nThe final layer of the product integrates Snowflake Cortex AI and your Streamlit AI assistant. Cortex AI provides natural‑language commentary, sentiment scoring, and automated insights directly on top of the modeled data. In Streamlit, this appears as an AI assistant that explains trends, summarizes performance, or answers user questions about the data. This transforms the dashboard from a static visualization tool into an intelligent decision‑support system."
-  },
-  {
-    "objectID": "data_engineering/data_engineering.html#stock-analysis-dashboard",
-    "href": "data_engineering/data_engineering.html#stock-analysis-dashboard",
-    "title": "Data Engineering",
-    "section": "",
-    "text": "The stock analysis tool I built in Streamlit takes all the messy, complicated market data and turns it into a clear, easy‑to‑read snapshot of how a stock is doing. Instead of making users jump between charts and numbers, everything—performance, trends, and comparisons—is organized in one clean dashboard. The overall score and Buy/Hold/Sell signal give a quick sense of whether a stock looks strong or risky, and the AI commentary explains what’s happening in plain language. This helps everyday investors save time, avoid confusion, and make smarter decisions with confidence. The main selling point is simple: it makes professional‑level analysis fast, understandable, and accessible to anyone.\n   \n\n\n\nThe project begins with data ingestion, where external sources such as Open‑Meteo and other APIs provide raw weather or market data. This raw data is first collected through an EtLT pipeline, meaning the system extracts the data, performs lightweight transformations if needed, and then loads it into the RAW layer of Snowflake. In some cases, data may arrive through SFTP and MongoDB, where files are dropped into a secure folder and automatically picked up by the pipeline. Apache Airflow orchestrates these ingestion tasks using DAGs, ensuring that data is pulled on a schedule, validated, and stored consistently.\nOnce the raw data is inside Snowflake, the next stage is data transformation and modeling. This is where dbt plays a central role. dbt takes the raw tables and applies business logic, cleaning steps, joins, and calculations to produce the MODELED layer. These modeled tables are structured for analytics — for example, combining weather data with time dimensions, or preparing stock data with rolling averages and cumulative metrics. dbt ensures that every transformation is version‑controlled, testable, and reproducible, which is essential for a production‑ready data warehouse.\nAfter the data is modeled, it becomes available for downstream applications. Streamlit application acts as the front‑end interface for end users. Streamlit connects to Snowflake to pull the modeled data and visualize it through charts, tables, and interactive components. This is where users can explore trends, compare metrics, and interact with the data in real time.\nThe final layer of the product integrates Snowflake Cortex AI and your Streamlit AI assistant. Cortex AI provides natural‑language commentary, sentiment scoring, and automated insights directly on top of the modeled data. In Streamlit, this appears as an AI assistant that explains trends, summarizes performance, or answers user questions about the data. This transforms the dashboard from a static visualization tool into an intelligent decision‑support system."
   }
 ]

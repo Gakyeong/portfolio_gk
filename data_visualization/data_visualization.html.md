@@ -17,7 +17,6 @@ format:
 
 
 
-
 ## Ticket Dashboard
 The Ticket Dashboard provides a centralized view of all support tickets, allowing teams to monitor, track, and manage requests efficiently. It displays key metrics such as ticket status, Request type, and response times.
 

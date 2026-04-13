@@ -16,6 +16,7 @@ format:
 
 
 
+
 ## Stock analysis Dashboard
 The stock analysis tool I built in Streamlit takes all the messy, complicated market data and turns it into a clear, easy‑to‑read snapshot of how a stock is doing. Instead of making users jump between charts and numbers, everything—performance, trends, and comparisons—is organized in one clean dashboard. The overall score and Buy/Hold/Sell signal give a quick sense of whether a stock looks strong or risky, and the AI commentary explains what’s happening in plain language. This helps everyday investors save time, avoid confusion, and make smarter decisions with confidence. The main selling point is simple: it makes professional‑level analysis fast, understandable, and accessible to anyone.
 
