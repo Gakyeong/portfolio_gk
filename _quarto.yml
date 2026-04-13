@@ -17,7 +17,7 @@ website:
       - text: "Vis"
         href: data_visualization/data_visualization.qmd
       - text: "Eng"
-        href: data_visualization/data_engineering.qmd
+        href: data_engineering/data_engineering.qmd
       - text: "Database"
         href: database/database.qmd
       - text: "ML/AI"
