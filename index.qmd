@@ -12,7 +12,7 @@ about:
   links:
     - icon: file-text
       text: Resume
-      href: GAKYEONG_BAE_RESUME.pdf
+      # href: GAKYEONG_BAE_RESUME.pdf
 
     - icon: github
       text: Github
